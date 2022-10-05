@@ -1,2 +1,3 @@
 import NavBar from "./NavBar.jsx";
-export { NavBar };
+import Banner from "./Banner.jsx";
+export { NavBar, Banner };
