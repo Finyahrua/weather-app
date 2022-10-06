@@ -7,9 +7,9 @@ const SearchAndFilters = () => {
         type="text"
         placeholder="Type here"
         className="input w-full max-w-[358px]
-rounded-[12px] bg-[#24343D] py-[40px] px-[40px] font-poppins text-[20px] font-extralight placeholder:text-white"
+rounded-[12px] bg-[#24343D] py-[40px] px-[40px] font-poppins text-[20px] font-extralight placeholder:text-white z-10"
       />
-      <div className="ml-[192px] flex w-full max-w-[800px] items-center justify-around rounded-[12px] bg-[#24343D] py-[20px]">
+      <div className="ml-[192px] flex w-full max-w-[800px] items-center justify-around rounded-[12px] bg-[#24343D] py-[20px] z-10">
         <h1 className="ml-[30px] font-poppins text-[23px] font-bold">
           Filters
         </h1>

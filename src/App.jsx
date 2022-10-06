@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Banner, NavBar, SearchAndFilters } from "./components";
+import { Banner, Cards, NavBar, SearchAndFilters } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <NavBar />
         <Banner />
         <SearchAndFilters />
+        <Cards />
       </div>
     </div>
   );
