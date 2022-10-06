@@ -3,7 +3,7 @@ import { Clouds, Sun, Thunder } from "../assets/images";
 
 const Cards = () => {
   return (
-    <div className="mx-[40px]  flex flex-row justify-between">
+    <div className="flex  flex-col justify-center items-center md:mx-[40px] md:flex-row md:justify-between ">
       <div className="card relative mt-[80px] flex min-h-[426px] w-[335px] flex-col items-start justify-end overflow-visible  bg-[#24353E] shadow-xl">
         <img
           src={Clouds}

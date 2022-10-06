@@ -4,11 +4,11 @@ const NavBar = () => {
   return (
     <div className="navbar text-white ">
       <div className="navbar-start ">
-        <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+        <div className="dropdown ">
+          <label tabIndex={0} className="btn btn-ghost flex lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-7 w-7 sm:h-10 sm:w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -55,7 +55,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost font-poppins text-[40px] capitalize">
+        <a className="btn btn-ghost font-poppins text-[30px] capitalize sm:ml-0 sm:text-[40px] ">
           Dark Weather
         </a>
       </div>
@@ -72,7 +72,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end items-center font-poppins ">
+      <div className="invisible sm:navbar-end sm:visible sm:items-center sm:font-poppins">
         <a className=" rounded-[20px] border-none bg-gradient-to-r from-[#3A5E72] to-[#5C93B1]  py-[20px] px-[35px] text-[20px] font-medium hover:cursor-pointer hover:bg-gradient-to-r  hover:from-blue-500 hover:to-cyan-500">
           Sign up
         </a>

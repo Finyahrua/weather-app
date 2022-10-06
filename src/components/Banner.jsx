@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="hero">
       <div className="hero-content text-center">
         <div className="max-w-3xl">
-          <p className="py-6 font-poppins text-[40px] font-semibold text-white">
+          <p className="sm:text-[30px] md:text-[40px] font-poppins text-[25px] text-white  sm:font-semibold before:sm:py-6">
             Seeing the weather of the whole world with{" "}
             <span className="bg-gradient-to-r from-[#CAECFF] to-[#78CFFF] bg-clip-text text-transparent">
               Dark Weather!
